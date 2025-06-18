@@ -1,0 +1,314 @@
+@media screen and (max-width: 600px) {
+    #box1{
+        background-color: blue;
+        height: 25px;
+        padding: 0%;
+        animation-name: boxcolorchange;
+        animation-duration: 10s;
+        animation-delay: 1s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-timing-function: linear;
+    }
+    @keyframes boxcolorchange {
+        0% {
+            background-color: blue;
+        }
+        10% {
+            background-color: red;
+        }
+        20% {
+            background-color: white;
+        }
+        30% {
+            background-color: black;
+        }
+        40% {
+            background-color: yellow;
+        }
+        50% {
+            background-color: green;
+        }
+        60% {
+            background-color: yellowgreen;
+        }
+        70% {
+            background-color: crimson;
+        }
+        80% {
+            background-color: orange;
+        }
+        90% {
+            background-color: darkgreen;
+        }
+        100% {
+            background-color: purple;
+        }
+    }
+    #box2{
+        background-color: crimson;
+        height: 150px;
+        transition:background-color 0.5s ease;
+    }
+    #contentLeft{
+        position: relative;
+    }
+    #text{
+        color: whitesmoke;
+        text-align: center;
+    }
+    #contentBox{
+        background-color: red;
+        width: 50px;
+        height: 600px;
+        /* Does not work yet check back */
+    }
+    #img1{
+        height: 150px;
+        transition: 0.5s ease;
+        /* Does not work yet check back. want to add diffrent images that change depending on size */
+    }
+    ul{
+        list-style: none;
+        background: yellow;
+    }
+    ul li{
+        display: inline-block;
+        position: relative;
+    }
+    ul li a{
+        display: block;
+        padding: 20px 25px;
+        text-decoration: none;
+        text-align: center;
+        font-size: 20px;
+    }
+    ul li ul.Dropdown li{
+        display: block;
+    }
+    ul li ul.Dropdown{
+        width: 100%;
+        position: absolute;
+        z-index: 999;
+        display: none;
+    }
+    ul li a:hover{
+        background: blueviolet;
+    }
+    ul li:hover ul.Dropdown{
+        display: block;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 900px)  {
+    #box1{
+        background-color: blue;
+        height: 25px;
+        padding: 0%;
+        animation-name: boxcolorchange;
+        animation-duration: 10s;
+        animation-delay: 1s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-timing-function: linear;
+    }
+    @keyframes boxcolorchange {
+        0% {
+            background-color: blue;
+        }
+        10% {
+            background-color: red;
+        }
+        20% {
+            background-color: white;
+        }
+        30% {
+            background-color: black;
+        }
+        40% {
+            background-color: yellow;
+        }
+        50% {
+            background-color: green;
+        }
+        60% {
+            background-color: yellowgreen;
+        }
+        70% {
+            background-color: crimson;
+        }
+        80% {
+            background-color: orange;
+        }
+        90% {
+            background-color: darkgreen;
+        }
+        100% {
+            background-color: purple;
+        }
+    }
+    #box2{
+        background-color: whitesmoke;
+        height: 150px;
+        transition:background-color 0.5s ease;
+    }
+    #text{
+        color: black;
+        text-align: center;
+    }
+    #contentLeft{
+        position: relative;
+    }
+    #contentBox{
+        background-color: red;
+        width: 150px;
+        height: 600px;
+        /* Does not work yet check back */
+    }
+    #img1{
+        height: 150px;
+        transition: 0.5s ease;
+        /* Does not work yet check back. want to add diffrent images that change depending on size */
+    }
+    ul{
+        list-style: none;
+        background: yellow;
+    }
+    ul li{
+        display: inline-block;
+        position: relative;
+    }
+    ul li a{
+        display: block;
+        padding: 20px 25px;
+        text-decoration: none;
+        text-align: center;
+        font-size: 20px;
+    }
+    ul li ul.Dropdown li{
+        display: block;
+    }
+    ul li ul.Dropdown{
+        width: 100%;
+        position: absolute;
+        z-index: 999;
+        display: none;
+    }
+    ul li a:hover{
+        background: blueviolet;
+    }
+    ul li:hover ul.Dropdown{
+        display: block;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    #box1{
+        background-color: blue;
+        height: 25px;
+        padding: 0%;
+        animation-name: boxcolorchange;
+        animation-duration: 10s;
+        animation-delay: 1s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
+        animation-timing-function: linear;
+    }
+    @keyframes boxcolorchange {
+        0% {
+            background-color: blue;
+        }
+        10% {
+            background-color: red;
+        }
+        20% {
+            background-color: white;
+        }
+        30% {
+            background-color: black;
+        }
+        40% {
+            background-color: yellow;
+        }
+        50% {
+            background-color: green;
+        }
+        60% {
+            background-color: yellowgreen;
+        }
+        70% {
+            background-color: crimson;
+        }
+        80% {
+            background-color: orange;
+        }
+        90% {
+            background-color: darkgreen;
+        }
+        100% {
+            background-color: purple;
+        }
+    }
+    #box2{
+        background-color: black;
+        height: 150px;
+        transition:background-color 0.5s ease;
+    }
+    #text{
+        color: yellow;
+        text-align: center;
+    }
+    #contentLeft{
+        position: relative;
+    }
+    #contentBox{
+        background-color: red;
+        width: 150px;
+        height: 600px;
+        /* Does not work yet check back */
+    }
+    #img1{
+        height: 150px;
+        transition: 0.5s ease;
+        /* Does not work yet check back. want to add diffrent images that change depending on size */
+    }
+    ul{
+        list-style: none;
+        background: yellow;
+    }
+    ul li{
+        display: inline-block;
+        position: relative;
+    }
+    ul li a{
+        display: block;
+        padding: 20px 25px;
+        text-decoration: none;
+        text-align: center;
+        font-size: 20px;
+    }
+    ul li ul.Dropdown li{
+        display: block;
+    }
+    ul li ul.Dropdown{
+        width: 100%;
+        position: absolute;
+        z-index: 999;
+        display: none;
+    }
+    ul li a:hover{
+        background: blueviolet;
+    }
+    ul li:hover ul.Dropdown{
+        display: block;
+    }
+}
+
+body{
+    background-color:dimgray;
+}
+img{
+    height: 250px;
+    width: 250px;
+    padding: 25px;
+}
